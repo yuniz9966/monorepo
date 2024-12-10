@@ -1,0 +1,15 @@
+  247  ls
+  248  ls -la
+  249  git checkout -b feature
+  250  vim README.md 
+  251  vim .gitignore 
+  252  cat README.md .gitignore 
+  253  git add README.md .gitignore
+  254  git commit -m "Add changes to README.md and .gitignore"
+  255  git push origin feature
+  256  git commit --amend -m "Add changes - Amend- to README.md and .gitignore"
+  257  git push -f origin feature
+  258  git checkout main
+  259  git pull origin main
+  260  git merge feature
+  261  history | tail -15 > history.txt.
